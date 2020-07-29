@@ -350,3 +350,34 @@ a{
     z-index: 2;
 }
 ///////////IPAD-END/////////////
+///////////SERVICE/////////////
+.service__items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 115px;
+}
+.service__category{
+    width: 600px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box-2{
+    position: relative;
+    border: 1px solid #e5e5e5;
+    padding: 20px 60px;
+    img{
+        position: absolute;
+        top: 13px;
+        left: 20px;
+    }
+}
+.fa-chevron-down{
+    position: absolute;
+    right: 20px;
+    color: #e5e5e5;
+    font-size: 20px;
+    cursor: pointer;
+}
+///////////SERVICE-END/////////////
